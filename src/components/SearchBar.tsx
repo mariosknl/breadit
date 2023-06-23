@@ -65,6 +65,7 @@ const SearchBar: FC<SearchBarProps> = ({}) => {
 			className="relative rounded-lg border max-w-lg z-50 overflow-visible"
 		>
 			<CommandInput
+				isLoading={isFetching}
 				className="outline-none border-none focus:border-none focus:outline-none ring-0"
 				placeholder="Search communities..."
 				value={input}
