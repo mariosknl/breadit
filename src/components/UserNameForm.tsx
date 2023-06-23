@@ -30,7 +30,7 @@ interface UserNameFormProps extends React.HTMLAttributes<HTMLFormElement> {
 
 type FormData = z.infer<typeof UsernameValidator>;
 
-export function UserNameForm({ user, className, ...props }: UserNameFormProps) {
+function UserNameForm({ user, className, ...props }: UserNameFormProps) {
 	const router = useRouter();
 	const {
 		handleSubmit,
@@ -114,3 +114,5 @@ export function UserNameForm({ user, className, ...props }: UserNameFormProps) {
 		</form>
 	);
 }
+
+export default UserNameForm;
