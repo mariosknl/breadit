@@ -7,15 +7,15 @@ import { Comment, CommentVote, User } from "@prisma/client";
 import { useMutation } from "@tanstack/react-query";
 import axios from "axios";
 import { MessageSquare } from "lucide-react";
+import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { FC, useRef, useState } from "react";
-import CommentVotes from "./CommentVotes";
-import { Avatar } from "./ui/Avatar";
-import { Button } from "./ui/Button";
-import { Label } from "./ui/Label";
-import { Textarea } from "./ui/Textarea";
-import { toast } from "./../hooks/use-toast";
-import { useSession } from "next-auth/react";
+import { toast } from "../../hooks/use-toast";
+import CommentVotes from "../CommentVotes";
+import UserAvatar from "../UserAvatar";
+import { Button } from "../ui/Button";
+import { Label } from "../ui/Label";
+import { Textarea } from "../ui/Textarea";
 
 type ExtendedComment = Comment & {
 	votes: CommentVote[];
@@ -71,7 +71,7 @@ const PostComment: FC<PostCommentProps> = ({
 	return (
 		<div ref={commentRef} className="flex flex-col">
 			<div className="flex items-center">
-				<Avatar
+				<UserAvatar
 					user={{
 						name: comment.author.name || null,
 						image: comment.author.image || null,
