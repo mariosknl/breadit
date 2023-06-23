@@ -49,7 +49,7 @@ const Post: FC<PostProps> = ({
 								<span className="px-1"> - </span>
 							</>
 						) : null}
-						<span>Posted by u/{post.author.name}</span>{" "}
+						<span>Posted by u/{post.author.username}</span>{" "}
 						{formatTimeToNow(new Date(post.createdAt))}
 					</div>
 					<a href={`/r/${subredditName}/post/${post.id}`}>
@@ -67,7 +67,6 @@ const Post: FC<PostProps> = ({
 							<div className="absolute bottom-0 left-0 h-24 w-full bg-gradient-to-t from-white to-transparent " />
 						) : null}
 					</div>
-					P
 				</div>
 			</div>
 
