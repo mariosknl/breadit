@@ -910,9 +910,16 @@
     eslint-visitor-keys "^3.3.0"
 
 "@uploadthing/react@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/@uploadthing/react/-/react-4.0.0.tgz"
-  integrity sha512-4EI9Q3qs/iRbV9JeuGD0B+AYd61mguH9/jVZwjC/H4i8nj2fhsNs1ILLUtdZUs+adcUYOBU2rt4ZjEoPofpxHg==
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-4.1.3.tgz#ac70ae353284a0b4d1a0ad07b5251720f913f3fd"
+  integrity sha512-PG463gGyFnvaBhG5tf7rLDUQb9WDbHPzcV/1EGvrkli4LoMHtBXmTeD9WujwopJ4LjyVuXLh4hgYm7ZJlMlThQ==
+  dependencies:
+    "@uploadthing/shared" "^5.0.0"
+
+"@uploadthing/shared@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-5.0.0.tgz#bbabf33433cf604fa797e1971ede0f4749992bbe"
+  integrity sha512-Owr/RbSZgThcjZWWy6xTcmRH6jNcCfTGtrH3jAftA1nlGW1g4FzrdTZIHB2fdjZ5qJJ2KoyY3cPY1wEdE4FjaQ==
 
 "@upstash/redis@^1.21.0":
   version "1.21.0"
