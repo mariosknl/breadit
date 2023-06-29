@@ -46,7 +46,7 @@
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
     "lodash.debounce": "^4.0.8",
-    "lucide-react": "^0.255.0",
+    "lucide-react": "^0.256.0",
     "nanoid": "^4.0.2",
     "next": "13.4.7",
     "next-auth": "^4.22.1",
