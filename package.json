@@ -44,7 +44,7 @@
     "date-fns": "^2.30.0",
     "editorjs-react-renderer": "^3.5.1",
     "eslint-config-next": "13.4.10",
-    "eslint": "8.44.0",
+    "eslint": "8.46.0",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "^0.260.0",
     "nanoid": "^4.0.2",
