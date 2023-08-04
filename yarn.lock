@@ -28,7 +28,7 @@
 
 "@codexteam/icons@^0.0.4":
   version "0.0.4"
-  resolved "https://registry.npmjs.org/@codexteam/icons/-/icons-0.0.4.tgz"
+  resolved "https://registry.yarnpkg.com/@codexteam/icons/-/icons-0.0.4.tgz#8b72dcd3f3a1b0d880bdceb2abebd74b46d3ae13"
   integrity sha512-V8N/TY2TGyas4wLrPIFq7bcow68b3gu8DfDt1+rrHPtXxcexadKauRJL6eQgfG7Z0LCrN4boLRawR4S9gjIh/Q==
 
 "@codexteam/icons@^0.0.5":
@@ -95,9 +95,9 @@
     "@codexteam/icons" "^0.0.4"
 
 "@editorjs/paragraph@^2.9.0":
-  version "2.9.0"
-  resolved "https://registry.npmjs.org/@editorjs/paragraph/-/paragraph-2.9.0.tgz"
-  integrity sha512-lI6x1eiqFx2X3KmMak6gBlimFqXhG35fQpXMxzrjIphNLr4uPsXhVbyMPimPoLUnS9rM6Q00vptXmP2QNDd0zg==
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-2.10.0.tgz#dcf152e69738a9399b4af83262606d76cf1376e5"
+  integrity sha512-AzaGxR9DQAdWhx43yupBcwqtwH0WWi5jBDOCSeALIK86IYOnO6Lp4anEbH8IYmYrE/5MdnRiTwdU8/Xs8W15Nw==
   dependencies:
     "@codexteam/icons" "^0.0.4"
 
