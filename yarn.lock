@@ -49,9 +49,9 @@
   integrity sha512-L7Q5PET8PjKcBT5wp7VR+FCjwCi5PUp7rd/XjsgQ0CI5FJz0DphyHGRILMuDUdCW2MQT9NHbVr4QP31vwAkS/A==
 
 "@editorjs/code@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/@editorjs/code/-/code-2.8.0.tgz"
-  integrity sha512-qlv1OqSEPKnLv/ZQgNFmVgqsMbGDkh/qgTEnbVWsS+yujo1nlwgVkqCB8tOkQGVsrpmAYLiWRlA413nKxxCN5w==
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/code/-/code-2.9.0.tgz#8633b7c565212396385a3d41b4f72b7650f60a42"
+  integrity sha512-QNOWxF29j6mYl/gM5HJzeGOt3s4laoZCUbuRqj6RkIvLBWMU+ASwjckEiouA61hcYUOMfpw4vQjzhsfC7xm/vA==
   dependencies:
     "@codexteam/icons" "^0.0.5"
 
