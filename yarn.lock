@@ -363,9 +363,9 @@
     "@jridgewell/sourcemap-codec" "1.4.14"
 
 "@mantine/hooks@^7.0.0":
-  version "7.2.2"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.2.2.tgz#d116d8659f77c5f05f9dc088887c8857fcb456da"
-  integrity sha512-7CFSVP2aQHrBwLLAVf0q5dgj+6QTZmhLTNcuc3pE1du+HLFUdyVS6vvQC6kieZXxOd6UzwFGBlN4G+aDx95XeA==
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.3.2.tgz#664651fce6207640a5f1dba3e55806b489ec7b12"
+  integrity sha512-xgumuuI3PBWXff5N02HCI7PEy25mDEdyXDQklUYK93J6FKwpcosyZnGVitoUrV1gLtYYa9ZudeAWdhHuh/CpOg==
 
 "@next-auth/prisma-adapter@^1.0.6":
   version "1.0.7"
