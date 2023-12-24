@@ -1114,9 +1114,9 @@
   integrity sha512-yFOhvzBG8VB2qmEGWDuW/tV/ZcfRZ4a6rX7i9/ZS3IqHA0FO7CKa8yitltAl3yRdSI9it88iMEQg7Ah/ve8D4A==
 
 "@upstash/redis@^1.21.0":
-  version "1.25.2"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.25.2.tgz#c400caced6e05a4931823c4eb57eda6b73963db3"
-  integrity sha512-iI3jgvmDIbe4Px0PskB8lrn1NXz7ZQyGpW9Ehmonk6SEFqhqssqIB04VmlNh8zZUXwzy6G9DaIa5gIUM6B7DwA==
+  version "1.27.1"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.27.1.tgz#0523bac7e42c7d63a2878e922d980640f73f9a8b"
+  integrity sha512-K9UgTBypJ4Dx65s2u5auoyf/5YoCQjaN91QtxlkNg+3g0rqXXy4ELtzACstk1v+bTa547Mm3rzTjotDX/s9+Zg==
   dependencies:
     crypto-js "^4.2.0"
 
