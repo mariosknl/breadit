@@ -1117,20 +1117,15 @@
     file-selector "^0.6.0"
     tailwind-merge "^1.13.2"
 
-"@uploadthing/shared@^6.0.3":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.0.3.tgz#24fcc11c57ce1dd2827e567f7c91b2141f3b638c"
-  integrity sha512-gATWAg7cClqatJMDDaP0s9krijrsY5193ymRZDNkNbi0H8uH70/pP2W/7blV5dRNn6lwHJqL2LaHNcUounBd5Q==
-
 "@uploadthing/shared@^6.1.0":
   version "6.1.0"
   resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.1.0.tgz#8c859b1ee9909ddf3f0747d2dea7b18e7e5b350c"
   integrity sha512-pZNTqq/3QbAnLF6wRKAa9lM7MxdP057z3W3E6vZiHnhmwmdMllJpaVs3TWqe0wbSy6jcDDRLhDCuU/Vvr2KsZw==
 
 "@upstash/redis@^1.21.0":
-  version "1.28.1"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.28.1.tgz#8db0ff81a7382ae08c6349241fe389f01c4dc584"
-  integrity sha512-px7x2ZP/Tn5HZg0GbM4sf/+LMExrR8zmGAAGeOvptB/5wgTvaease7RdyoEmsb/PwL5GjlJy3xWmy4TsGk9s4w==
+  version "1.28.2"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.28.2.tgz#40e8b39e96d20c7309810559089e762fc3e2305f"
+  integrity sha512-e4HmmCji6kE6UnriU92sAVGLQcRYAB4fXSPXls08cjW7zdE/wFaDfhAGi1/T4/wUN50bAy/lpHwW4bMkI2EAcw==
   dependencies:
     crypto-js "^4.2.0"
 
