@@ -1134,13 +1134,6 @@
     file-selector "^0.6.0"
     tailwind-merge "^1.14.0"
 
-"@uploadthing/shared@^6.3.0":
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.3.0.tgz#46a7620a34915e9b57ec0b4a374aa8bd03d960c7"
-  integrity sha512-IXh/Y8v3JUEPb+n9e92X37hZywqjDJsOq8rrfKhZRmB6bMJNJncHz3X4fqofexDB96dmB8KwizdRYTQAxZvYQg==
-  dependencies:
-    std-env "^3.7.0"
-
 "@uploadthing/shared@^6.3.1":
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.3.1.tgz#2a38d283f53942fc811f41a55eea58e141986697"
@@ -3142,9 +3135,9 @@ nanoid@^3.3.7:
   integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
 nanoid@^5.0.0:
-  version "5.0.5"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.0.5.tgz#5112efb5c0caf4fc80680d66d303c65233a79fdd"
-  integrity sha512-/Veqm+QKsyMY3kqi4faWplnY1u+VuKO3dD2binyPIybP31DRO29bPF+1mszgLnrR2KqSLceFLBNw0zmvDzN1QQ==
+  version "5.0.6"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-5.0.6.tgz#7f99a033aa843e4dcf9778bdaec5eb02f4dc44d5"
+  integrity sha512-rRq0eMHoGZxlvaFOUdK1Ev83Bd1IgzzR+WJ3IbDJ7QOSdAxYjlurSPqFs9s4lJg29RT6nPwizFtJhQS6V5xgiA==
 
 natural-compare@^1.4.0:
   version "1.4.0"
