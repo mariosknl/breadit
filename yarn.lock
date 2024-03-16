@@ -1110,10 +1110,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/structured-clone/-/structured-clone-1.2.0.tgz#756641adb587851b5ccb3e095daf27ae581c8406"
   integrity sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==
 
-"@uploadthing/dropzone@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@uploadthing/dropzone/-/dropzone-0.2.0.tgz#4f66ace596ebb1a3e0eacd440f48394ab726fdfb"
-  integrity sha512-bqPdU15xknka6+QoUMLx8134vO1Ude18qst9FAVx1N3BSjAqlGRhvJCjWJ3yoE/ENi5nGi0zuOLM2aSQgG2dOg==
+"@uploadthing/dropzone@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@uploadthing/dropzone/-/dropzone-0.2.1.tgz#e373496b3b59b3cf61c8993b5c12db294c48467e"
+  integrity sha512-OK4rSFnQ2woJ07t78hTfxjMxXedLoj+Jp34kIEtYPYBTPOnNwoKhDXfRojSu8cBilkQROzIe67i0p6F4B6LQhQ==
   dependencies:
     file-selector "^0.6.0"
 
@@ -1123,15 +1123,21 @@
   integrity sha512-P8rcS++LA8x9DTcL5FFAY7FB4z4frSWaSKztxv2duT4Mea/GxZe9pAXyMWX+ZfGYbt3n12SlSfvV28ZvC5XLqw==
 
 "@uploadthing/react@^6.0.0":
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-6.3.2.tgz#5070eda3d57ba4f5bc969141672017543cee18ac"
-  integrity sha512-jFB80vA1BakdMsKJJ2JuGY/sbPBY6WzFFlPRPlUse0nbp2OisnEKSN5PRt3ceXmNn3ButiQOdnMDZAyK4WP5vw==
+  version "6.4.0"
+  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-6.4.0.tgz#38ffba69697b886318a14d0632376dd91b0c3dac"
+  integrity sha512-XvlrlgH6LM2Zmw/yzryyI6+6mdANFg9nCYvE4glF81cvqVl6X62nrwC3EhvC/H19ZaW8atwsvtyjNxZS3+l+gA==
   dependencies:
-    "@uploadthing/dropzone" "^0.2.0"
-    "@uploadthing/shared" "^6.3.2"
-    attr-accept "^2.2.2"
+    "@uploadthing/dropzone" "0.2.1"
+    "@uploadthing/shared" "6.3.4"
     file-selector "^0.6.0"
     tailwind-merge "^2.2.1"
+
+"@uploadthing/shared@6.3.4":
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.3.4.tgz#e34cd94e59e04271943443f10eba907760f635fb"
+  integrity sha512-qMf7BiwQth14Gxt2Zerkrbpy/gIHUIkxBz7aN+OEh1T+z2gv8qLRhMXoWFaU56Q+3/NegdR6J+9jwPWc9WwMug==
+  dependencies:
+    std-env "^3.7.0"
 
 "@uploadthing/shared@^6.3.2":
   version "6.3.2"
