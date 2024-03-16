@@ -375,9 +375,9 @@
     "@jridgewell/sourcemap-codec" "1.4.14"
 
 "@mantine/hooks@^7.0.0":
-  version "7.6.1"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.6.1.tgz#9f24f86dce43466d32136aca6a22c3dfa106ef18"
-  integrity sha512-zsOGzFRcQZuER2rzAjfrAqp98W7WCFA43nF1QZUKV7AHTq8q1mtr3DOhFfO3/CA+t1lai68gp1guVcIhP4lrwQ==
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.6.2.tgz#5b84ffc150b694a1fe2dc7a38ffed4c048a79ac7"
+  integrity sha512-ZrOgrZHoIGCDKrr2/9njDgK0al+jjusYQFlmR0YyEFyRtgY6eNSI4zuYLcAPx1haHmUm5RsLBrqY6Iy/TLdGXA==
 
 "@next-auth/prisma-adapter@^1.0.6":
   version "1.0.7"
@@ -1136,13 +1136,6 @@
   version "6.3.4"
   resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.3.4.tgz#e34cd94e59e04271943443f10eba907760f635fb"
   integrity sha512-qMf7BiwQth14Gxt2Zerkrbpy/gIHUIkxBz7aN+OEh1T+z2gv8qLRhMXoWFaU56Q+3/NegdR6J+9jwPWc9WwMug==
-  dependencies:
-    std-env "^3.7.0"
-
-"@uploadthing/shared@^6.3.2":
-  version "6.3.2"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.3.2.tgz#e283fa3d14bdf933c16d9874f04e101cd6e1134a"
-  integrity sha512-jt4+gEQRriUGYDnVfj6qIXzSvAp3NnJ11cOUAQSRcnvlTIFv02sTit2/JAldLa8KJNur+mM1bBUTkkdXRcVIxg==
   dependencies:
     std-env "^3.7.0"
 
