@@ -75,9 +75,9 @@
   integrity sha512-WRT2pCfikMsvySQJqpCU21LfTZaPuxUWsDO8aFGrPx4MKzOR9D+Ur4mNb3jq0FXx2EMqvIWfTyFixJxtjGHTyQ==
 
 "@editorjs/embed@^2.5.3":
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/embed/-/embed-2.7.0.tgz#9bd368d0e55656dad7c7b5453033ff77aa2458bc"
-  integrity sha512-FieA8YKnqAMX+4Ng6VeusuuuyMg1cX4vADoEKcQVM0LHy2hC17ztNGZh8UHEfrjUwbfJDSr/cPhT0LRGrwTd8g==
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/embed/-/embed-2.7.1.tgz#4aa5ad459fe43c02520adaaa8161cccb616e6376"
+  integrity sha512-wcL/DatRLMRSDwzHUWsp+c+3ZnDQcExi2RC6uhxLR6eavseNUo5zU02cN3Qw4ts8pQEU9adfUWj1U8sukkBQFw==
 
 "@editorjs/header@^2.7.0":
   version "2.8.1"
