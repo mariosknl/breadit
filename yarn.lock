@@ -1014,10 +1014,10 @@
   dependencies:
     file-selector "^0.6.0"
 
-"@uploadthing/mime-types@0.2.7":
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/@uploadthing/mime-types/-/mime-types-0.2.7.tgz#f4d5d7a0faa5afd4bc16fcac1e61c80e6487b638"
-  integrity sha512-HfQpL1GSyLOOnIT4WqVv8aW3HotEpFKuuCnK+dUZThMzeiFs09s9J0wk5/VBwupXvIXQwMiB//bp9aUE2p/mFg==
+"@uploadthing/mime-types@0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@uploadthing/mime-types/-/mime-types-0.2.9.tgz#9f0818bad21b5793d2b80051cf279d941316944f"
+  integrity sha512-7Ap2evP+niXNSXoOck4DUZUAKYrMRRpJ85n+ZxCuRsnr3iziOgv/Rt6es5SnMVgE/aOObxddOxbrxyOhISQWHQ==
 
 "@uploadthing/react@^6.0.0":
   version "6.5.1"
@@ -4200,13 +4200,16 @@ update-browserslist-db@^1.0.13:
     picocolors "^1.0.0"
 
 uploadthing@^6.0.0:
-  version "6.9.0"
-  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-6.9.0.tgz#11b2ca74abf8dea21894c237676195181a2ddc94"
-  integrity sha512-I985NeMkUHFK+ixfu6ztBGCzkAVYiLP8H3bIcYz+Oh13uFsqQAKrrG34ivdUk8mCjssGCOn8eN+skMPA6bNCoQ==
+  version "6.10.1"
+  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-6.10.1.tgz#6e5a706d447106f8932a83e0c0ee269636c8e0c8"
+  integrity sha512-xqgEauaDYLlQ6NEsQWF+fpsUOuniWazd8ytSK2bCxcKFGakCkXO32GkFolW4iZZgkl7ATnHwN+JXG95FPdo74w==
   dependencies:
-    "@uploadthing/mime-types" "0.2.7"
-    "@uploadthing/shared" "6.6.0"
+    "@effect/schema" "^0.66.12"
+    "@uploadthing/mime-types" "0.2.9"
+    "@uploadthing/shared" "6.7.1"
     consola "^3.2.3"
+    effect "^3.1.0"
+    fast-check "^3.18.0"
     std-env "^3.7.0"
 
 uri-js@^4.2.2:
