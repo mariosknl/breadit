@@ -1040,9 +1040,9 @@
     std-env "^3.7.0"
 
 "@upstash/redis@^1.21.0":
-  version "1.30.0"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.30.0.tgz#b9b5b4025ec7a45421dbb606d1bb32e2e932119d"
-  integrity sha512-bkxl2n7qls27hONXNyItM6ccRT0NBJ8c6zl83wx+TlODpYXehgeiUJTkcTaXLp7hk+zy6Mqpzpeo3GX+wZSvBw==
+  version "1.31.1"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.31.1.tgz#5c83bbfaee727c12e10d01c45c08105e4d7cd0a6"
+  integrity sha512-lAsOo+kYjD5lpP+lH/nxHfzFYeCkWBwwKsyZZmh0AoOumBA9ZpS52Gorm7c2bmNu3UFijpPiLSFdW/nRdjbRpQ==
   dependencies:
     crypto-js "^4.2.0"
 
