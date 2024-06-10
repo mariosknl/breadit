@@ -41,9 +41,9 @@
     regenerator-runtime "^0.13.11"
 
 "@babel/runtime@^7.24.1":
-  version "7.24.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.5.tgz#230946857c053a36ccc66e1dd03b17dd0c4ed02c"
-  integrity sha512-Nms86NXrsaeU9vbBJKni6gXiEXZ4CVpYVzEjDH9Sb8vmZ3UljyA1GSOJl/6LGPO8EHLuSF9H+IxNXHPX8QHJ4g==
+  version "7.24.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.6.tgz#5b76eb89ad45e2e4a0a8db54c456251469a3358e"
+  integrity sha512-Ja18XcETdEl5mzzACGd+DKgaGJzPTCow7EglgwTmHdwokzDFYh/MHua6lU6DV/hjF2IaOJ4oX2nqnjG7RElKOw==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -1020,22 +1020,14 @@
   integrity sha512-kz3F0oEgAyts25NAGXlUBCWh3mXonbSOQJFGFMawHuIgbUbnzXbe4w5WI+0XdneCbjNmikfWrdWrs8m/7HATfQ==
 
 "@uploadthing/react@^6.0.0":
-  version "6.5.4"
-  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-6.5.4.tgz#20f0549b886824d24cded798f9746ee4c8b7c36c"
-  integrity sha512-c1RFZggXqlc4wQ0hnxjgOM+9066NUMOJmUAPG2N7EKYO64/uRrZMpq5CvYdxsKwI0YiCnhIeInct21QvSSEa6Q==
+  version "6.6.0"
+  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-6.6.0.tgz#7b8fe47ea5b8ad1fff958f9b64dd0a5a7d757e3c"
+  integrity sha512-jLN4Oy21d0n8F6CNPl9qjEu0/Q1rnddSxny/02Lm89L/sYuR4RXfk1vBgBGPAGXBak0BO9z5eEmYURLrXXUAJQ==
   dependencies:
     "@uploadthing/dropzone" "0.4.1"
-    "@uploadthing/shared" "6.7.4"
+    "@uploadthing/shared" "6.7.5"
     file-selector "^0.6.0"
     tailwind-merge "^2.2.1"
-
-"@uploadthing/shared@6.7.4":
-  version "6.7.4"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.7.4.tgz#5bb3097d1654c45e927133f6008f4aacc052125c"
-  integrity sha512-7e35U7/84qQQx+bhldSdze9ODiAo4NCCZiYEV3NomD44O9fE5bfQXcCPtBeXh3y3udf7S28PMZbT6ybJeuKfgw==
-  dependencies:
-    effect "^3.1.0"
-    std-env "^3.7.0"
 
 "@uploadthing/shared@6.7.5":
   version "6.7.5"
