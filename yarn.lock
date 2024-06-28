@@ -41,9 +41,9 @@
     regenerator-runtime "^0.13.11"
 
 "@babel/runtime@^7.24.1":
-  version "7.24.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.6.tgz#5b76eb89ad45e2e4a0a8db54c456251469a3358e"
-  integrity sha512-Ja18XcETdEl5mzzACGd+DKgaGJzPTCow7EglgwTmHdwokzDFYh/MHua6lU6DV/hjF2IaOJ4oX2nqnjG7RElKOw==
+  version "7.24.7"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.24.7.tgz#f4f0d5530e8dbdf59b3451b9b3e594b6ba082e12"
+  integrity sha512-UwgBRMjJP+xv857DCngvqXI3Iq6J4v0wXmwc6sapg+zyhbwmQX67LUEFrkK5tbyJ30jGuG3ZvWpBiB9LCy1kWw==
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -1022,12 +1022,12 @@
   integrity sha512-kz3F0oEgAyts25NAGXlUBCWh3mXonbSOQJFGFMawHuIgbUbnzXbe4w5WI+0XdneCbjNmikfWrdWrs8m/7HATfQ==
 
 "@uploadthing/react@^6.0.0":
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-6.6.0.tgz#7b8fe47ea5b8ad1fff958f9b64dd0a5a7d757e3c"
-  integrity sha512-jLN4Oy21d0n8F6CNPl9qjEu0/Q1rnddSxny/02Lm89L/sYuR4RXfk1vBgBGPAGXBak0BO9z5eEmYURLrXXUAJQ==
+  version "6.7.2"
+  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-6.7.2.tgz#8cd7b1c1bfdc09e2d615058fb9450bf6918ded82"
+  integrity sha512-9Mdslj1S24qbISA/LE3In5OFQ/U7OxdMbBlTPkJxKPkh+UW7BqZS0XuRTfkZYPkdBGDoXw5aH7VG3D/vGgpmxg==
   dependencies:
     "@uploadthing/dropzone" "0.4.1"
-    "@uploadthing/shared" "6.7.5"
+    "@uploadthing/shared" "6.7.8"
     file-selector "^0.6.0"
     tailwind-merge "^2.2.1"
 
@@ -1038,6 +1038,15 @@
   dependencies:
     "@uploadthing/mime-types" "0.2.10"
     effect "^3.1.0"
+    std-env "^3.7.0"
+
+"@uploadthing/shared@6.7.8":
+  version "6.7.8"
+  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.7.8.tgz#67bcb5d708b65c2aeba5d384532f27596bb8c52b"
+  integrity sha512-dLNa9GpdeiCHc/Nd0+BfaJ3wXvWIztBAaWIsNNPoaKiU3qhHoQd+5jDVx4oYKYVANqnv9s2CJW7di8Th5xy7Cw==
+  dependencies:
+    "@uploadthing/mime-types" "0.2.10"
+    effect "3.4.5"
     std-env "^3.7.0"
 
 "@upstash/redis@^1.21.0":
@@ -1676,6 +1685,11 @@ editorjs-react-renderer@^3.5.1:
   dependencies:
     html-react-parser "^3.0.4"
     react "^18.2.0"
+
+effect@3.4.5:
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/effect/-/effect-3.4.5.tgz#f1e2624271a082a7c99d42414c542af5879f011f"
+  integrity sha512-aTonOH68tUttSdYwMkiuky3hjgn3pu7yInNaE8rU2EDKQ8zr9Me78WcvWBQKe4u1gvbBH77y9dAKqn98lNIfNQ==
 
 effect@^3.1.0:
   version "3.2.5"
@@ -4109,10 +4123,15 @@ tsconfig-paths@^3.14.2:
     minimist "^1.2.6"
     strip-bom "^3.0.0"
 
-tslib@^2.0.0, tslib@^2.1.0, tslib@^2.4.0:
+tslib@^2.0.0, tslib@^2.1.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+
+tslib@^2.4.0:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.3.tgz#0438f810ad7a9edcde7a241c3d80db693c8cbfe0"
+  integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
 
 tslib@^2.5.0:
   version "2.5.3"
