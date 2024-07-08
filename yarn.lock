@@ -55,6 +55,11 @@
   resolved "https://registry.yarnpkg.com/@codexteam/icons/-/icons-0.0.6.tgz#5553ada48dddf5940851ccc142cfe17835c36ad3"
   integrity sha512-L7Q5PET8PjKcBT5wp7VR+FCjwCi5PUp7rd/XjsgQ0CI5FJz0DphyHGRILMuDUdCW2MQT9NHbVr4QP31vwAkS/A==
 
+"@codexteam/icons@^0.3.0":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@codexteam/icons/-/icons-0.3.1.tgz#366e12d77fcdfbc1b91bd4555d9e571e2bd0fb3f"
+  integrity sha512-xojjd40csucwaKz/Nnh/iy18BtTdQjq3YQNL6MCqqFRyUNN+8nRfm/Mp+Y4xo6TseDkReS2tM1FbuULyrFjn0w==
+
 "@editorjs/code@^2.8.0":
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/@editorjs/code/-/code-2.9.0.tgz#8633b7c565212396385a3d41b4f72b7650f60a42"
@@ -83,11 +88,11 @@
     "@editorjs/editorjs" "^2.29.1"
 
 "@editorjs/image@^2.8.1":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/image/-/image-2.9.0.tgz#0c83252d569a0dc3af14c3f7d16b6df033b9c37b"
-  integrity sha512-xItihKJFiWJ06SMtLWQZvzHv4LRPNAFZYaHAXesBFzXvWwUrtVaVMcNSf0eNnw3InrPO3Po1vZRRgpsT+Ya3Bg==
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/image/-/image-2.9.1.tgz#e50f77b8cf73aa65872cd0adfb5bb103cd87d1f8"
+  integrity sha512-QG7b942nvEIkoSGMt/HZyVSQOxgwcQgnicwvmc8RzgXia5Wo2hNF4kZjfSYaatVrBMtStZM3xPzYAU8Zj/U5zg==
   dependencies:
-    "@codexteam/icons" "^0.0.6"
+    "@codexteam/icons" "^0.3.0"
 
 "@editorjs/inline-code@^1.4.0":
   version "1.5.0"
