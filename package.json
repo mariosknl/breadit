@@ -43,7 +43,7 @@
     "cmdk": "^1.0.0",
     "date-fns": "^3.0.0",
     "editorjs-react-renderer": "^3.5.1",
-    "eslint": "9.7.0",
+    "eslint": "9.9.0",
     "eslint-config-next": "14.2.5",
     "lodash.debounce": "^4.0.8",
     "lucide-react": "^0.414.0",
