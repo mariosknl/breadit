@@ -130,10 +130,10 @@
   dependencies:
     "@codexteam/icons" "^0.0.6"
 
-"@effect/schema@0.68.12":
-  version "0.68.12"
-  resolved "https://registry.yarnpkg.com/@effect/schema/-/schema-0.68.12.tgz#e530485e049a04eb0ce8698ea3294d2feac1afbb"
-  integrity sha512-UWJsFXzeYTBQYnftwI1KR2uaxIZ8fk+kffDS7BnJwnGjPPgODq3/AzeoBDSu1MAlnwBKOz+QRdMuSMxrT/pHig==
+"@effect/schema@0.68.18":
+  version "0.68.18"
+  resolved "https://registry.yarnpkg.com/@effect/schema/-/schema-0.68.18.tgz#bc61cea0abc5cfea091b9ddf59a13cd4983d25c6"
+  integrity sha512-+knLs36muKsyqIvQTB0itGp5Lwy+5jgEC0G5P8wSsrB6EWGFirS87QjbaFYGbg32l/P51RM+9cPMiAEyICwN6g==
   dependencies:
     fast-check "^3.19.0"
 
@@ -1183,6 +1183,15 @@
     effect "3.4.5"
     std-env "^3.7.0"
 
+"@uploadthing/shared@6.7.9":
+  version "6.7.9"
+  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.7.9.tgz#a8fc8da2813c7076703ae3084a878c77578bd886"
+  integrity sha512-EsHkD31HLBHYB59ZbUVQg1pADtMNf+qjlKwniq+gxXsOOe5heD/zunJStjYWLhwB+C8+SaCPXvM7LiDmv5s/Vw==
+  dependencies:
+    "@uploadthing/mime-types" "0.2.10"
+    effect "3.4.8"
+    std-env "^3.7.0"
+
 "@upstash/redis@^1.21.0":
   version "1.34.0"
   resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.34.0.tgz#f32cd53ebeeafbba7eca10f8597a573d5a2fed0d"
@@ -1825,6 +1834,11 @@ effect@3.4.5:
   resolved "https://registry.yarnpkg.com/effect/-/effect-3.4.5.tgz#f1e2624271a082a7c99d42414c542af5879f011f"
   integrity sha512-aTonOH68tUttSdYwMkiuky3hjgn3pu7yInNaE8rU2EDKQ8zr9Me78WcvWBQKe4u1gvbBH77y9dAKqn98lNIfNQ==
 
+effect@3.4.8:
+  version "3.4.8"
+  resolved "https://registry.yarnpkg.com/effect/-/effect-3.4.8.tgz#e3322c188cd9bfe45f2e4ae74a9e6f6f419f0717"
+  integrity sha512-qOQNrSSN3ITuAtARtN2Ldq6E5f42splY9VV18LqpKOXMwQCCEWkXdns4by3D2CJnDXQD2KCE0iGcRR2KowiQIA==
+
 electron-to-chromium@^1.5.4:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.10.tgz#2791f966880389f96078d5e784b0d500f71abd14"
@@ -2257,9 +2271,9 @@ execa@^7.1.1:
     strip-final-newline "^3.0.0"
 
 fast-check@^3.19.0:
-  version "3.19.0"
-  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.19.0.tgz#6a0b7cabc3aa82bc00967332de216c5452ff7ea5"
-  integrity sha512-CO2JX/8/PT9bDGO1iXa5h5ey1skaKI1dvecERyhH4pp3PGjwd3KIjMAXEg79Ps9nclsdt4oPbfqiAnLU0EwrAQ==
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.22.0.tgz#1a8153e9d6fbdcc60b818f447cbb9cac1fdd8fb6"
+  integrity sha512-8HKz3qXqnHYp/VCNn2qfjHdAdcI8zcSqOyX64GOMukp7SL2bfzfeDKjSd+UyECtejccaZv3LcvZTm9YDD22iCQ==
   dependencies:
     pure-rand "^6.1.0"
 
@@ -4391,15 +4405,15 @@ update-browserslist-db@^1.1.0:
     picocolors "^1.0.1"
 
 uploadthing@^6.0.0:
-  version "6.13.2"
-  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-6.13.2.tgz#82e6c36aaa22905ffdcb1ea341c1f509615d7d06"
-  integrity sha512-hrxwOgqKs8siczPloop72drRBiUYaFDHMp45OR/sSAaAbOPyGBmBL88Bi4UWCvgC+aBWCLRxtMEGeoqrfu+OMg==
+  version "6.13.3"
+  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-6.13.3.tgz#859b7bcdc197429c3d02256df1dba549dae398c1"
+  integrity sha512-MkwKeuo0cVSJ9XHZgEW67qzCmk8QF1mDNf3cDnDC4v0g7o7mnCWgATyYsKSFURQPLnRvysddDxmsaekDOomXvw==
   dependencies:
-    "@effect/schema" "0.68.12"
+    "@effect/schema" "0.68.18"
     "@uploadthing/mime-types" "0.2.10"
-    "@uploadthing/shared" "6.7.8"
+    "@uploadthing/shared" "6.7.9"
     consola "^3.2.3"
-    effect "3.4.5"
+    effect "3.4.8"
     std-env "^3.7.0"
 
 uri-js@^4.2.2:
