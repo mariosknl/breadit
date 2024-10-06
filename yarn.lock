@@ -1164,15 +1164,6 @@
     file-selector "^0.6.0"
     tailwind-merge "^2.2.1"
 
-"@uploadthing/shared@6.7.8":
-  version "6.7.8"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.7.8.tgz#67bcb5d708b65c2aeba5d384532f27596bb8c52b"
-  integrity sha512-dLNa9GpdeiCHc/Nd0+BfaJ3wXvWIztBAaWIsNNPoaKiU3qhHoQd+5jDVx4oYKYVANqnv9s2CJW7di8Th5xy7Cw==
-  dependencies:
-    "@uploadthing/mime-types" "0.2.10"
-    effect "3.4.5"
-    std-env "^3.7.0"
-
 "@uploadthing/shared@6.7.9":
   version "6.7.9"
   resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.7.9.tgz#a8fc8da2813c7076703ae3084a878c77578bd886"
@@ -1813,11 +1804,6 @@ editorjs-react-renderer@^3.5.1:
   dependencies:
     html-react-parser "^3.0.4"
     react "^18.2.0"
-
-effect@3.4.5:
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/effect/-/effect-3.4.5.tgz#f1e2624271a082a7c99d42414c542af5879f011f"
-  integrity sha512-aTonOH68tUttSdYwMkiuky3hjgn3pu7yInNaE8rU2EDKQ8zr9Me78WcvWBQKe4u1gvbBH77y9dAKqn98lNIfNQ==
 
 effect@3.4.8:
   version "3.4.8"
@@ -4199,12 +4185,7 @@ synckit@^0.8.5:
     "@pkgr/utils" "^2.3.1"
     tslib "^2.5.0"
 
-tailwind-merge@^2.0.0:
-  version "2.5.2"
-  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-2.5.2.tgz#000f05a703058f9f9f3829c644235f81d4c08a1f"
-  integrity sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==
-
-tailwind-merge@^2.2.1:
+tailwind-merge@^2.0.0, tailwind-merge@^2.2.1:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-2.5.3.tgz#579546e14ddda24462e0303acd8798c50f5511bb"
   integrity sha512-d9ZolCAIzom1nf/5p4LdD5zvjmgSxY0BGgdSvmXIoMYAiPdAW/dSpP7joCDYFY7r/HkEa2qmPtkgsu0xjQeQtw==
