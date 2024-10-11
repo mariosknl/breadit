@@ -1032,10 +1032,10 @@
   resolved "https://registry.npmjs.org/@types/prop-types/-/prop-types-15.7.5.tgz"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react-dom@18.3.0":
-  version "18.3.0"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.3.0.tgz#0cbc818755d87066ab6ca74fbedb2547d74a82b0"
-  integrity sha512-EhwApuTmMBmXuFOikhQLIBUn6uFg81SwLMOAUgodJF14SOBOCMdU04gDoYi0WOJJHD144TL32z4yDqCW3dnkQg==
+"@types/react-dom@18.3.1":
+  version "18.3.1"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.3.1.tgz#1e4654c08a9cdcfb6594c780ac59b55aad42fe07"
+  integrity sha512-qW1Mfv8taImTthu4KoXgDfLuk4bydU6Q/TkADnDWWHwi4NX4BR+LWfTp2sVmTqRrsHvyDDTelgelxJ+SsejKKQ==
   dependencies:
     "@types/react" "*"
 
@@ -1048,10 +1048,10 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
-"@types/react@18.3.5":
-  version "18.3.5"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.5.tgz#5f524c2ad2089c0ff372bbdabc77ca2c4dbadf8f"
-  integrity sha512-WeqMfGJLGuLCqHGYRGHxnKrXcTitc6L/nBUWfWPcTarG3t9PsquqUMuVeXZeca+mglY4Vo5GZjCi0A3Or2lnxA==
+"@types/react@18.3.11":
+  version "18.3.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.11.tgz#9d530601ff843ee0d7030d4227ea4360236bd537"
+  integrity sha512-r6QZ069rFTjrEYgFdOck1gK7FLVsgJE7tTz0pQBczlBNUhBNk0MQH4UbnFSwjpQLMkLzgqvBBa+qGpLje16eTQ==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -1163,15 +1163,6 @@
     "@uploadthing/shared" "6.7.9"
     file-selector "^0.6.0"
     tailwind-merge "^2.2.1"
-
-"@uploadthing/shared@6.7.8":
-  version "6.7.8"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-6.7.8.tgz#67bcb5d708b65c2aeba5d384532f27596bb8c52b"
-  integrity sha512-dLNa9GpdeiCHc/Nd0+BfaJ3wXvWIztBAaWIsNNPoaKiU3qhHoQd+5jDVx4oYKYVANqnv9s2CJW7di8Th5xy7Cw==
-  dependencies:
-    "@uploadthing/mime-types" "0.2.10"
-    effect "3.4.5"
-    std-env "^3.7.0"
 
 "@uploadthing/shared@6.7.9":
   version "6.7.9"
@@ -1813,11 +1804,6 @@ editorjs-react-renderer@^3.5.1:
   dependencies:
     html-react-parser "^3.0.4"
     react "^18.2.0"
-
-effect@3.4.5:
-  version "3.4.5"
-  resolved "https://registry.yarnpkg.com/effect/-/effect-3.4.5.tgz#f1e2624271a082a7c99d42414c542af5879f011f"
-  integrity sha512-aTonOH68tUttSdYwMkiuky3hjgn3pu7yInNaE8rU2EDKQ8zr9Me78WcvWBQKe4u1gvbBH77y9dAKqn98lNIfNQ==
 
 effect@3.4.8:
   version "3.4.8"
