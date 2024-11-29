@@ -81,9 +81,9 @@
     "@editorjs/editorjs" "^2.29.1"
 
 "@editorjs/image@^2.8.1":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@editorjs/image/-/image-2.9.3.tgz#d0e2b1add332fd16c2e2f4cf4b12f36e07b4b4d6"
-  integrity sha512-hBOHuqvL/ovjrns+xLuBh/b3kqABDlLxlByWnSuKnE31O351NDrg9AXrB1yYo0yZerw5V591rP0US3PEzp7CzQ==
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/image/-/image-2.10.1.tgz#0676563b44686f9953b77fa625d6b473d0ffec64"
+  integrity sha512-ECjYQCEuPRzyruKY4+6XOyukQ2sCw4+9O1Jg8sDHyqbHLq0DMe+tgVsuXR+yfOXdocnywBOg4kLsJiP1uUYFcA==
   dependencies:
     "@codexteam/icons" "^0.3.0"
 
