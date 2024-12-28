@@ -122,9 +122,9 @@
     "@codexteam/icons" "^0.0.4"
 
 "@editorjs/table@^2.2.1":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@editorjs/table/-/table-2.4.2.tgz#99a2b3f9ea8f39c9ca4df80b8e63bff6e21d0193"
-  integrity sha512-zGmwLCarsaTgOfccxR3Lc6oC3QTX0JdoK0O3+8TE/VCR/xnW92VO7rAcu4cqTwtbFMQErYl8id9a5hM23vyFng==
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/table/-/table-2.4.3.tgz#3bf7d2185297138864ece0ff04bc8ec699e2596f"
+  integrity sha512-TBLVFA1T6PIZRSWz0gXZUtNrFu4a59FeABM/wS0/Coc/bhOfWBRrf5/Ic5tVHaTazXEo1dYWWrVgg/jRaRnYbw==
   dependencies:
     "@codexteam/icons" "^0.0.6"
 
