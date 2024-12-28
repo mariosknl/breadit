@@ -17,7 +17,7 @@
     "@editorjs/image": "^2.8.1",
     "@editorjs/inline-code": "^1.4.0",
     "@editorjs/link": "^2.5.0",
-    "@editorjs/list": "^1.8.0",
+    "@editorjs/list": "^2.0.0",
     "@editorjs/paragraph": "^2.9.0",
     "@editorjs/table": "^2.2.1",
     "@hookform/resolvers": "^3.1.0",
