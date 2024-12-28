@@ -115,9 +115,9 @@
     "@codexteam/icons" "^0.0.4"
 
 "@editorjs/paragraph@^2.9.0":
-  version "2.11.6"
-  resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-2.11.6.tgz#011444187a74dc603201dce37d2fc6d054022407"
-  integrity sha512-i9B50Ylvh+0ZzUGWIba09PfUXsA00Y//zFZMwqsyaXXKxMluSIJ6ADFJbbK0zaV9Ijx49Xocrlg+CEPRqATk9w==
+  version "2.11.7"
+  resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-2.11.7.tgz#156957112b4932bc4523476c613af874d73c58fc"
+  integrity sha512-qD6bbWvRc4VvP0mXDOm+hOhzzhUYR9ZjcAvgCuKWcCbUMpCvhVF1s8NX40zdjekPi6JEnuHTamCncTrSzVsVhw==
   dependencies:
     "@codexteam/icons" "^0.0.4"
 
