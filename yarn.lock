@@ -59,9 +59,9 @@
     "@codexteam/icons" "^0.3.2"
 
 "@editorjs/editorjs@^2.27.0", "@editorjs/editorjs@^2.29.1":
-  version "2.30.7"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.30.7.tgz#6ba210490c1040c55ef7e5ef040c4c6e3dc722e7"
-  integrity sha512-FfdeUqrgcKWC+Cy2GW6Dxup6s2TaRKokR4FL+HKXshu6h9Y//rrx4SQkURgkZOCSbV77t9btbmAXdFXWGB+diw==
+  version "2.30.8"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.30.8.tgz#e88773622b656f002d6aac31a4b09a04ddea554b"
+  integrity sha512-ClFuxI1qZTfXPJTacQfsJtOUP6bKoIe6BQNdAvGsDTDVwMnZEzoaSOwvUpdZEE56xppVfQueNK/1MElV9SJKHg==
 
 "@editorjs/embed@^2.5.3":
   version "2.7.6"
