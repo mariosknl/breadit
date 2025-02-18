@@ -1091,11 +1091,11 @@
   integrity sha512-EB0o0a4y++UJFMLqS8LDVhSQgXUllG6t5fwl5cbmOM0Uay8YY5Nc/JjFwzJ8wccdIKz4oYwQW7EOSfUyaMPbfw==
 
 "@uploadthing/react@^7.0.0":
-  version "7.1.5"
-  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-7.1.5.tgz#8ff452b0ec3799acaafbcc31a52732bae355cce7"
-  integrity sha512-D0lP4YnUWw5LFHrLuL+sq26wlul9dGE70G+oOQ+qkM1ZqSeKSGvIdAIOAQUBj2qQi4Re7o0VpF3+3qBF3svN6A==
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-7.3.0.tgz#6a582d9ce40ca642ce61cb82c781691e6152f41a"
+  integrity sha512-rSH9BpPy2/G7nZ3SEbZQANUFHkBCS5CwWiVzmOW9fzFNoqF+buqBvi5FDweffqMSwmr+/VS8Wpyj87/GYbV0Fw==
   dependencies:
-    "@uploadthing/shared" "7.1.5"
+    "@uploadthing/shared" "7.1.7"
     file-selector "0.6.0"
 
 "@uploadthing/shared@7.1.5":
@@ -1105,6 +1105,15 @@
   dependencies:
     "@uploadthing/mime-types" "0.3.4"
     effect "3.11.5"
+    sqids "^0.3.0"
+
+"@uploadthing/shared@7.1.7":
+  version "7.1.7"
+  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-7.1.7.tgz#c945dd351e953c78ff381ca4532e0b95561037c7"
+  integrity sha512-VDvGmyHhdwaivC+eee77yZnOVvz59mOmLVbcuYFo4SkoNvPuc3AyPORqJJMBveQivTvELdrQcjlx6IPv98JkSA==
+  dependencies:
+    "@uploadthing/mime-types" "0.3.4"
+    effect "3.12.0"
     sqids "^0.3.0"
 
 "@upstash/redis@^1.21.0":
@@ -1858,6 +1867,13 @@ effect@3.11.5:
   dependencies:
     fast-check "^3.21.0"
 
+effect@3.12.0:
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/effect/-/effect-3.12.0.tgz#0b02740d288a7b679dcfa525b55e1186c81b6195"
+  integrity sha512-b/u9s3b9HfTo0qygVouegP0hkbiuxRIeaCe1ppf8P88hPyl6lKCbErtn7Az4jG7LuU7f0Wgm4c8WXbMcL2j8+g==
+  dependencies:
+    fast-check "^3.23.1"
+
 electron-to-chromium@^1.5.4:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.10.tgz#2791f966880389f96078d5e784b0d500f71abd14"
@@ -2405,7 +2421,7 @@ execa@^7.1.1:
     signal-exit "^3.0.7"
     strip-final-newline "^3.0.0"
 
-fast-check@^3.21.0:
+fast-check@^3.21.0, fast-check@^3.23.1:
   version "3.23.2"
   resolved "https://registry.yarnpkg.com/fast-check/-/fast-check-3.23.2.tgz#0129f1eb7e4f500f58e8290edc83c670e4a574a2"
   integrity sha512-h5+1OzzfCC3Ef7VbtKdcv7zsstUQwUDlYpUTvjeUsJAssPgLn7QzbboPtL5ro04Mq0rPOsMzl7q5hIbRs2wD1A==
