@@ -116,10 +116,10 @@
   dependencies:
     "@codexteam/icons" "^0.0.6"
 
-"@effect/platform@0.70.7":
-  version "0.70.7"
-  resolved "https://registry.yarnpkg.com/@effect/platform/-/platform-0.70.7.tgz#b770e648b86a82f0bcaaa1fd1aa2fbc5758c4d2f"
-  integrity sha512-TbNwj/mOJhycPygbmicGBS7CNtv5Z8WVheRbLUdP3oPAe/nbSOJVLc8ZPvOejhquF/1vJMKuqY5MWfkcBpvi/g==
+"@effect/platform@0.72.0":
+  version "0.72.0"
+  resolved "https://registry.yarnpkg.com/@effect/platform/-/platform-0.72.0.tgz#c7b79677bdeb5932a2d33f22fb173589fbbe3bef"
+  integrity sha512-uHsW2hlo6AiIW3zpLAVAoNvJngS/JwCZBAM4RSRllm8JTgjjCraef78FJBDNnSXz+2a10Xzzx4qxVsP3s8EV5Q==
   dependencies:
     find-my-way-ts "^0.1.5"
     multipasta "^0.2.5"
@@ -912,10 +912,10 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.10.5.tgz#3a1c12c959010a55c17d46b395ed3047b545c246"
   integrity sha512-kkKUDVlII2DQiKy7UstOR1ErJP8kUKAQ4oa+SQtM0K+lPdmmjj0YnnxBgtTVYH7mUKtbsxeFC9y0AmK7Yb78/A==
 
-"@standard-schema/spec@1.0.0-beta.3":
-  version "1.0.0-beta.3"
-  resolved "https://registry.yarnpkg.com/@standard-schema/spec/-/spec-1.0.0-beta.3.tgz#4dbf9a3c69e10fa2997e1ac1f39d8e9f33213576"
-  integrity sha512-0ifF3BjA1E8SY9C+nUew8RefNOIq0cDlYALPty4rhUm8Rrl6tCM8hBT4bhGhx7I7iXD0uAgt50lgo8dD73ACMw==
+"@standard-schema/spec@1.0.0-beta.4":
+  version "1.0.0-beta.4"
+  resolved "https://registry.yarnpkg.com/@standard-schema/spec/-/spec-1.0.0-beta.4.tgz#62f520109add3eb016004098363bfee0678dd1ec"
+  integrity sha512-d3IxtzLo7P1oZ8s8YNvxzBUXRXojSut8pbPrTYtzsc5sn4+53jVqbk66pQerSZbZSJZQux6LkclB/+8IDordHg==
 
 "@swc/counter@0.1.3":
   version "0.1.3"
@@ -5007,15 +5007,15 @@ update-browserslist-db@^1.1.0:
     picocolors "^1.0.1"
 
 uploadthing@^7.0.0:
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-7.4.4.tgz#3b06a483b86c99c25d2602ffbc1b18d155b1e53e"
-  integrity sha512-dgV8LqaKrXSnpDkqzzLbVEmIubMPi8a5bRtIzM+rG5EbZpIZyOG0bByLxdSlkSbK5L6F+HbIGX5eDkLPFNL8dg==
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-7.5.2.tgz#5a9b2fd7a73cb581ab75d60d212c688ed57473ac"
+  integrity sha512-hrvsVXgu6cYYJW97UuFLd3U2+TrPGyMBtPYSkqSTVq45Orkq9qFk095qkXYIW4EA/DyvCo78VV25HfSXT3EH7w==
   dependencies:
-    "@effect/platform" "0.70.7"
-    "@standard-schema/spec" "1.0.0-beta.3"
+    "@effect/platform" "0.72.0"
+    "@standard-schema/spec" "1.0.0-beta.4"
     "@uploadthing/mime-types" "0.3.4"
-    "@uploadthing/shared" "7.1.5"
-    effect "3.11.5"
+    "@uploadthing/shared" "7.1.7"
+    effect "3.12.0"
 
 uri-js@^4.2.2:
   version "4.4.1"
