@@ -373,9 +373,9 @@
   integrity sha512-MpY/o8/8kj+EcnxwvrP4aTJSWw/aZ7JIGR4aBeZkZw5B7/Jn+tY9/VNwtcoGmdT7GfggGIU4kygOMSbYnOrAbg==
 
 "@mantine/hooks@^7.0.0":
-  version "7.17.1"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.17.1.tgz#7a7cedcd3656430985ab93b3b9b3d34d9aaab303"
-  integrity sha512-mkHLrXMPd5xdI5WD7UOLwNEpdh/i6A7HaRDTXvjDE2/S0N8VmAE+BlvdyvWRMi7ODp2zVqJdP8cF1tgUn+Z0fA==
+  version "7.17.3"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.17.3.tgz#fe8c32edaeffb43f0fa5d984f6373fcef47f1ff8"
+  integrity sha512-6o65Rbfl8jd1C1nF9icvungqL0qZViEOmrZgkyKXxBYkC3x91fz4zftwQgNjt1tZHWDNO6Bo4GpRjJyAdwl48g==
 
 "@next-auth/prisma-adapter@^1.0.6":
   version "1.0.7"
