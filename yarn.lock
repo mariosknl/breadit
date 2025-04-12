@@ -4606,9 +4606,9 @@ update-browserslist-db@^1.1.1:
     picocolors "^1.1.1"
 
 uploadthing@^7.0.0:
-  version "7.5.2"
-  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-7.5.2.tgz#5a9b2fd7a73cb581ab75d60d212c688ed57473ac"
-  integrity sha512-hrvsVXgu6cYYJW97UuFLd3U2+TrPGyMBtPYSkqSTVq45Orkq9qFk095qkXYIW4EA/DyvCo78VV25HfSXT3EH7w==
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-7.6.0.tgz#911f8f9947a8c4408c001f96814ba466ec2bd6c8"
+  integrity sha512-vNrIsRCxgmUEFTOX9bMVK+EKcVvyQR6HI63YGSKI1FMjWYxBVFM8nLWFZE68vTgdWmlvx017kQP2MG4eZPXtfw==
   dependencies:
     "@effect/platform" "0.72.0"
     "@standard-schema/spec" "1.0.0-beta.4"
