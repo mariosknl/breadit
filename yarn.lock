@@ -91,9 +91,9 @@
     "@codexteam/icons" "^0.0.4"
 
 "@editorjs/list@^2.0.0":
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/@editorjs/list/-/list-2.0.6.tgz#2f9004ca3499044988af43f0aa9b81d2db7b054e"
-  integrity sha512-QmmRAMtIBlO9k8LxfiqhWM+CjrA9r1F5th3cI9UFhDMC78YqFdFNg+dWrH57bAW4063HJfS1ygbGoH/LfHBkww==
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/@editorjs/list/-/list-2.0.8.tgz#7a6628963f7ed306ab6f1968fa4b1899dce0f9a8"
+  integrity sha512-/EJNvpeJYa1YDtYa85ug9R3sbDyI5ZlMHQ2bIh5S9iPa19qXe45jk6kgcew+jMNQq3j4NS4Q6YeeFbU1QkNMWw==
   dependencies:
     "@codexteam/icons" "^0.3.2"
 
