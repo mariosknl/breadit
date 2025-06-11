@@ -384,9 +384,9 @@
   integrity sha512-aUdT6zEYtDKCaxkofmmJDJYGCf0+pJg3eU9/oBuqvEeoB9dKI6ZLc/1iLJCTuJQDO4ptntAlkUmHgGjyuobZbw==
 
 "@mantine/hooks@^7.0.0":
-  version "7.17.7"
-  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.17.7.tgz#ecbc4be549b10b23fa1dea93145291fcfbf65ee7"
-  integrity sha512-5MIvN/YAcewc97nG3jVrlnFqAExnJRBNWmV6UgGHWbiZiPSCh5o2RJE/5ZVGSfkexDpav9gkm2jkWkIbemVqVA==
+  version "7.17.8"
+  resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-7.17.8.tgz#8ac109a848236371c9da2a44261de7cb45330db4"
+  integrity sha512-96qygbkTjRhdkzd5HDU8fMziemN/h758/EwrFu7TlWrEP10Vw076u+Ap/sG6OT4RGPZYYoHrTlT+mkCZblWHuw==
 
 "@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.3":
   version "3.0.3"
