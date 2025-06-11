@@ -76,9 +76,9 @@
     "@codexteam/icons" "^0.3.0"
 
 "@editorjs/inline-code@^1.4.0":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@editorjs/inline-code/-/inline-code-1.5.1.tgz#482709fb75c1a92161ef001d65f468cbda67aa5d"
-  integrity sha512-XvKpqw9y1bOYgyuVUHGDuu7KlNWCYIXD5uU1Lpc4s4LJ8VN4TjWFGKJ3sS+LR7zzasWe8hu2ffR1JC6MHIS0EQ==
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@editorjs/inline-code/-/inline-code-1.5.2.tgz#325bbb06a6e79864ddf86019822cf1eba629b0a7"
+  integrity sha512-IpEvwMTP3q89T/6vTi3ACoSMOcTdywtMsci1w19+Z/lxQn/NVuVah++ro93wQ/1ZVTyCr+TPUCchxwzY1/xaMg==
   dependencies:
     "@codexteam/icons" "^0.3.2"
 
