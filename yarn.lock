@@ -1112,11 +1112,11 @@
   integrity sha512-iYOmod80XXOSe4NVvaUG9FsS91YGPUaJMTBj52Nwu0G2aTzEN6Xcl0mG1rWqXJ4NUH8MzjVqg+tQND5TPkJWhg==
 
 "@uploadthing/react@^7.0.0":
-  version "7.3.1"
-  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-7.3.1.tgz#c720dd1cb9210427fde9280d59456079e8fbfe3a"
-  integrity sha512-yIAFw46ZO/NPb74zpomwn6Hf2ZX/Ws+vNlR4oKNLJ7YtJ+/bqERclzC3xnRVi/pT47ctISlqXQFGiXUn85wg5Q==
+  version "7.3.2"
+  resolved "https://registry.yarnpkg.com/@uploadthing/react/-/react-7.3.2.tgz#666ff73cc4689270fcdc6c912d0e104e2fddd470"
+  integrity sha512-dssVzrxGBKBHUzJu/CiEGc3hQ49U4sPdnqN5xMmtEdnJP+6OB+a8JUjkwxiJDBQXc3ft9XCmkLCZZoUt1EQSIw==
   dependencies:
-    "@uploadthing/shared" "7.1.8"
+    "@uploadthing/shared" "7.1.9"
     file-selector "0.6.0"
 
 "@uploadthing/shared@7.1.8":
@@ -1126,6 +1126,15 @@
   dependencies:
     "@uploadthing/mime-types" "0.3.5"
     effect "3.14.21"
+    sqids "^0.3.0"
+
+"@uploadthing/shared@7.1.9":
+  version "7.1.9"
+  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-7.1.9.tgz#1397ba9b7b5271a3cf91c7f883bdcf0555b001dd"
+  integrity sha512-5Gn1wGVSygsBxI6tjOwwEQt/U4m+vbmZCnsuf8pDfZ+MiXe3el03CWMmpbH3KtSu0BwG48wyCKNfHplZsphvOA==
+  dependencies:
+    "@uploadthing/mime-types" "0.3.5"
+    effect "3.16.8"
     sqids "^0.3.0"
 
 "@upstash/redis@^1.21.0":
@@ -1786,6 +1795,14 @@ effect@3.14.21:
   version "3.14.21"
   resolved "https://registry.yarnpkg.com/effect/-/effect-3.14.21.tgz#140ebc4ee99aa14cefe11e3aadcff66a12d1692f"
   integrity sha512-TKR7zfWcuZgEdWd+oIGA8LdREj/c+1Q0wz4pWqQtYT7VHnkW/QQEYCXgrDI5dT6lJgRTgyQAC1bAnpAf6MdjIA==
+  dependencies:
+    "@standard-schema/spec" "^1.0.0"
+    fast-check "^3.23.1"
+
+effect@3.16.8:
+  version "3.16.8"
+  resolved "https://registry.yarnpkg.com/effect/-/effect-3.16.8.tgz#ce8ea9df52abb00eb2440664e1c062b1887ba6ed"
+  integrity sha512-E4U0MZFBun99myxOogy9ZZ1c3IYR47L/A5GqCP9Lp+6ORag0YLmGHOrYxQ3agN1FOMTrElgtJmciicwnHdE+Ug==
   dependencies:
     "@standard-schema/spec" "^1.0.0"
     fast-check "^3.23.1"
