@@ -111,13 +111,13 @@
   dependencies:
     "@codexteam/icons" "^0.0.6"
 
-"@effect/platform@0.81.0":
-  version "0.81.0"
-  resolved "https://registry.yarnpkg.com/@effect/platform/-/platform-0.81.0.tgz#da91e8ecaa157e02383dba9b97b1a592a7d3b485"
-  integrity sha512-RZ0pqpSUET0Ab3CBjOhJ12C2/vWLQsy+SLJbGNxjcOm9xZAwQowggWCs4S3ZXhdnNTR5WJHH02WlAWHJDaMKhA==
+"@effect/platform@0.85.2":
+  version "0.85.2"
+  resolved "https://registry.yarnpkg.com/@effect/platform/-/platform-0.85.2.tgz#794ab0878fc9d607a9c87aabbba4a5eab3adb269"
+  integrity sha512-zIRixbQeO6QniR0k2mwR7DmR2HO1w6+qQlzQ5nb8lyPyPgd1gV9wo/9yBeB6zRC+CGnxiUiYsRMamclVISuxLw==
   dependencies:
     find-my-way-ts "^0.1.5"
-    msgpackr "^1.11.2"
+    msgpackr "^1.11.4"
     multipasta "^0.2.5"
 
 "@emnapi/runtime@^1.4.3":
@@ -1119,15 +1119,6 @@
     "@uploadthing/shared" "7.1.9"
     file-selector "0.6.0"
 
-"@uploadthing/shared@7.1.8":
-  version "7.1.8"
-  resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-7.1.8.tgz#5e34a270285badf6f53f4d9c033854eae2df0a18"
-  integrity sha512-OA9ZrTfILOCt1G93wOD7dZmS653z99Nr3isZpIxzBO3y4B2geKFmPjJUZClig2RrAWLKr2VUYToXKfd9D/wP9w==
-  dependencies:
-    "@uploadthing/mime-types" "0.3.5"
-    effect "3.14.21"
-    sqids "^0.3.0"
-
 "@uploadthing/shared@7.1.9":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@uploadthing/shared/-/shared-7.1.9.tgz#1397ba9b7b5271a3cf91c7f883bdcf0555b001dd"
@@ -1790,14 +1781,6 @@ editorjs-react-renderer@^3.5.1:
   dependencies:
     html-react-parser "^3.0.4"
     react "^18.2.0"
-
-effect@3.14.21:
-  version "3.14.21"
-  resolved "https://registry.yarnpkg.com/effect/-/effect-3.14.21.tgz#140ebc4ee99aa14cefe11e3aadcff66a12d1692f"
-  integrity sha512-TKR7zfWcuZgEdWd+oIGA8LdREj/c+1Q0wz4pWqQtYT7VHnkW/QQEYCXgrDI5dT6lJgRTgyQAC1bAnpAf6MdjIA==
-  dependencies:
-    "@standard-schema/spec" "^1.0.0"
-    fast-check "^3.23.1"
 
 effect@3.16.8:
   version "3.16.8"
@@ -3420,7 +3403,7 @@ msgpackr-extract@^3.0.2:
     "@msgpackr-extract/msgpackr-extract-linux-x64" "3.0.3"
     "@msgpackr-extract/msgpackr-extract-win32-x64" "3.0.3"
 
-msgpackr@^1.11.2:
+msgpackr@^1.11.4:
   version "1.11.4"
   resolved "https://registry.yarnpkg.com/msgpackr/-/msgpackr-1.11.4.tgz#14703caead8ee0c2e7c89417de5a3ec94adf5d3e"
   integrity sha512-uaff7RG9VIC4jacFW9xzL3jc0iM32DNHe4jYVycBcjUePT/Klnfj7pqtWJt9khvDFizmjN2TlYniYmSS2LIaZg==
@@ -4641,15 +4624,15 @@ update-browserslist-db@^1.1.1:
     picocolors "^1.1.1"
 
 uploadthing@^7.0.0:
-  version "7.7.2"
-  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-7.7.2.tgz#4a72ceb3eaa53564046e1831d626406fafb6a14c"
-  integrity sha512-Q8rp40vnh8g4+OHvocmf+YVoSi+6RWTKmemo5BgW7R8iFU2O2EYH/n+CIxPzxhYyH/QjhRF/pHoIMcUL/8OtSg==
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/uploadthing/-/uploadthing-7.7.3.tgz#d3436670b472fd2dfd817bbb79e5c517ad022b0f"
+  integrity sha512-jmPMVoqM+fWP1EXiwP6VBLTJykZ8z4ryrUr1N8yc87T+cxZw2vyvX2ReCaLhfjdbielPjHm486VCHtO2gYBFQA==
   dependencies:
-    "@effect/platform" "0.81.0"
+    "@effect/platform" "0.85.2"
     "@standard-schema/spec" "1.0.0-beta.4"
     "@uploadthing/mime-types" "0.3.5"
-    "@uploadthing/shared" "7.1.8"
-    effect "3.14.21"
+    "@uploadthing/shared" "7.1.9"
+    effect "3.16.8"
 
 uri-js@^4.2.2:
   version "4.4.1"
