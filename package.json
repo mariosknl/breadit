@@ -64,7 +64,7 @@
     "tailwindcss-animate": "^1.0.5",
     "typescript": "5.8.3",
     "uploadthing": "^7.0.0",
-    "zod": "^3.21.4"
+    "zod": "^4.0.0"
   },
   "devDependencies": {
     "@types/editorjs__header": "^2.6.0",
