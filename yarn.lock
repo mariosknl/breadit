@@ -1154,9 +1154,9 @@
     sqids "^0.3.0"
 
 "@upstash/redis@^1.21.0":
-  version "1.35.3"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.35.3.tgz#7b383b6a8af57e619c054bdccdb7a6159860cdf5"
-  integrity sha512-hSjv66NOuahW3MisRGlSgoszU2uONAY2l5Qo3Sae8OT3/Tng9K+2/cBRuyPBX8egwEGcNNCF9+r0V6grNnhL+w==
+  version "1.35.6"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.35.6.tgz#d92969147d9cdfea89facc45d711643d907da2ec"
+  integrity sha512-aSEIGJgJ7XUfTYvhQcQbq835re7e/BXjs8Janq6Pvr6LlmTZnyqwT97RziZLO/8AVUL037RLXqqiQC6kCt+5pA==
   dependencies:
     uncrypto "^0.1.3"
 
