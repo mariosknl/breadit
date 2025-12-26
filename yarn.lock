@@ -47,9 +47,9 @@
     "@editorjs/dom" "^1.0.1"
 
 "@editorjs/code@^2.8.0":
-  version "2.9.3"
-  resolved "https://registry.yarnpkg.com/@editorjs/code/-/code-2.9.3.tgz#89f25ce86e1cd551804c5c7fc2b7d3d5108777dd"
-  integrity sha512-nXUrK3CjhpubvShYtcbkpZ9SU15IYwmJOsWZrlWYSzy9unZBRQthii6eABndsCtODzzV0yiSKmTp00RQkFow3Q==
+  version "2.9.4"
+  resolved "https://registry.yarnpkg.com/@editorjs/code/-/code-2.9.4.tgz#b5301586406ab2ed7096525f731b10e2df3582f6"
+  integrity sha512-c0zyWodNqjL/0WI67sZvACIOFU9IAHG0UeeIpjss8pZGGNBum+UWkh7nKULK0SYvaOrdPdlWWqjuFU1TFA5jUA==
   dependencies:
     "@codexteam/icons" "^0.3.2"
 
