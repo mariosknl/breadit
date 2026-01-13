@@ -61,9 +61,9 @@
     "@editorjs/helpers" "^1.0.1"
 
 "@editorjs/editorjs@^2.27.0", "@editorjs/editorjs@^2.29.1", "@editorjs/editorjs@^2.31.0":
-  version "2.31.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.0.tgz#fd580f030c50b7278c0c12caf0c48fd4611c2c03"
-  integrity sha512-CBcIZXtPlg0dSlC5clO9OfTCmcxelj723jd4d67teFlaFJobjjxU1PmMxFJdhaRep5+nqdD0jr+fdJBqEDqt1g==
+  version "2.31.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.1.tgz#48f69f420a66027cf7c91a36042578862f319743"
+  integrity sha512-MGhgIvVAiRIhMyVryyMgHTyfTiLzvCKN2RkfCiooihUwlcmNv0MkmnayMDXfb5S1gStGV46YAObPh/7QotdjGg==
   dependencies:
     "@editorjs/caret" "^1.0.1"
     codex-notifier "^1.1.2"
