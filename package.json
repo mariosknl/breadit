@@ -37,7 +37,7 @@
     "@types/node": "24.10.9",
     "@uploadthing/react": "^7.0.0",
     "@upstash/redis": "^1.21.0",
-    "autoprefixer": "10.4.23",
+    "autoprefixer": "10.4.24",
     "axios": "^1.4.0",
     "class-variance-authority": "^0.7.0",
     "cmdk": "^1.0.0",
