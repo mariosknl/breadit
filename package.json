@@ -18,7 +18,7 @@
     "@editorjs/inline-code": "^1.4.0",
     "@editorjs/link": "^2.5.0",
     "@editorjs/list": "^2.0.0",
-    "@editorjs/paragraph": "^2.9.0",
+    "@editorjs/paragraph": "^3.0.0",
     "@editorjs/table": "^2.2.1",
     "@hookform/resolvers": "^5.0.0",
     "@mantine/hooks": "^9.0.0",
