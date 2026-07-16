@@ -173,7 +173,7 @@
   resolved "https://registry.yarnpkg.com/@codexteam/icons/-/icons-0.0.6.tgz#5553ada48dddf5940851ccc142cfe17835c36ad3"
   integrity sha512-L7Q5PET8PjKcBT5wp7VR+FCjwCi5PUp7rd/XjsgQ0CI5FJz0DphyHGRILMuDUdCW2MQT9NHbVr4QP31vwAkS/A==
 
-"@codexteam/icons@^0.3.0", "@codexteam/icons@^0.3.2":
+"@codexteam/icons@^0.3.0", "@codexteam/icons@^0.3.2", "@codexteam/icons@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@codexteam/icons/-/icons-0.3.3.tgz#89d53af1d2bfc106e4e44be5fd824a059e94c098"
   integrity sha512-cp7mkZPgmBuSxigTm3Vb+DtVHYeX7qXfQd7o05vcLD8Ag5WvRlol2QSn5P10k0CDAJwmkH9nQGQLBycErS9lsQ==
@@ -192,14 +192,23 @@
   dependencies:
     "@codexteam/icons" "^0.3.2"
 
-"@editorjs/dom@^1.1.0":
+"@editorjs/dom-adapters@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/dom-adapters/-/dom-adapters-0.0.0.tgz#a962f00c8e5a92ff546ecf77ead346750824328d"
+  integrity sha512-Y8/uYxwh3qeY5TbQbqMCANOQZYtCeXHPZJq2VCq7Q35ycJ/OrSm0sJ3Dcg+YH/tuAgMVKhizLFN3WsHUf8otEQ==
+  dependencies:
+    "@editorjs/dom" "^1.0.0"
+    "@editorjs/model" "^0.0.0"
+    "@editorjs/sdk" "^0.0.0"
+
+"@editorjs/dom@^1.0.0", "@editorjs/dom@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@editorjs/dom/-/dom-1.1.0.tgz#2f2b3ccec615207135a13797a473131b84445a24"
   integrity sha512-aH8OeS3DXCDG2WP6yt/uS6Z9PstrA3Re930boIilxtMdF7Ht+pKJrq3OJnd7OCMPVO/y7UOAmtHNesVx6v4K2g==
   dependencies:
     "@editorjs/helpers" "^1.2.0"
 
-"@editorjs/editorjs@^2.27.0", "@editorjs/editorjs@^2.30.7", "@editorjs/editorjs@^2.31.0":
+"@editorjs/editorjs@^2.27.0", "@editorjs/editorjs@^2.30.5", "@editorjs/editorjs@^2.30.7", "@editorjs/editorjs@^2.30.8", "@editorjs/editorjs@^2.31.0":
   version "2.31.6"
   resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.6.tgz#1468aeda08d2cfa2eab9412927cd118e6a472d2a"
   integrity sha512-j2nxuFCD3DnoJDUD0hPO5tirpuQ6sWmmuHATl3EI7fG1it3Ml7jk0WJtu3E+TRLBd7zfNeJhDThbP3LnBEn2GA==
@@ -223,7 +232,7 @@
     "@codexteam/icons" "^0.0.5"
     "@editorjs/editorjs" "^2.30.7"
 
-"@editorjs/helpers@^1.2.0":
+"@editorjs/helpers@^1.1.0", "@editorjs/helpers@^1.2.0":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@editorjs/helpers/-/helpers-1.2.2.tgz#b0b7312dd857fcc3b7c59b020f0938940885f0a5"
   integrity sha512-saDNARvY3xd70H4KE0eBq2hlV0Z7SpfI1/1iVqyVt5PqhlEOIR5rWJFH4c63BHTa6BfiR/+PMl1n7X/X7SlptQ==
@@ -259,12 +268,29 @@
   dependencies:
     "@codexteam/icons" "^0.3.2"
 
-"@editorjs/paragraph@^2.9.0":
-  version "2.11.7"
-  resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-2.11.7.tgz#156957112b4932bc4523476c613af874d73c58fc"
-  integrity sha512-qD6bbWvRc4VvP0mXDOm+hOhzzhUYR9ZjcAvgCuKWcCbUMpCvhVF1s8NX40zdjekPi6JEnuHTamCncTrSzVsVhw==
+"@editorjs/model@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/model/-/model-0.0.0.tgz#b23f7b89e551afa3b594e08cd3b843b29f55d2da"
+  integrity sha512-wF5MkgN4e/UK/9YooiyGZcizK0EWRbg3bIurkIpSyhOq8LI/VEZ9438Bqsz1v0OruJFtOsvEiUMM32ubowQJlA==
+
+"@editorjs/paragraph@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/paragraph/-/paragraph-3.0.0.tgz#742e6766d395d3a5e332e306048f205ae622dc88"
+  integrity sha512-4uTkPNxwBVSCya/BMlvIf8H4vJ1tWQqlG5/qpuCcIWLy9Q58AajQGjrrzNvBZPFbtvl+ZFstILNskkdvRn7tKw==
   dependencies:
-    "@codexteam/icons" "^0.0.4"
+    "@codexteam/icons" "^0.3.3"
+    "@editorjs/dom-adapters" "^0.0.0"
+    "@editorjs/editorjs" "^2.30.5"
+    "@editorjs/sdk" "^0.0.0"
+
+"@editorjs/sdk@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/sdk/-/sdk-0.0.0.tgz#b53b74dac122c7a6b2ccd44680491ae39eb38b67"
+  integrity sha512-T5Cw5VrP5fVrSLIiKL4L9B2T/OFKR4mkNHAGsMoNDPL3q1GWj6r6leeR21XiU+0wrSj2qOcN7tgJqKcuH5WTUw==
+  dependencies:
+    "@editorjs/editorjs" "^2.30.8"
+    "@editorjs/helpers" "^1.1.0"
+    "@editorjs/model" "^0.0.0"
 
 "@editorjs/table@^2.2.1":
   version "2.4.5"
