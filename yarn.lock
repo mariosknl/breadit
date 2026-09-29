@@ -211,16 +211,16 @@
     "@codexteam/icons" "^0.3.2"
 
 "@editorjs/dom@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/dom/-/dom-1.1.0.tgz#2f2b3ccec615207135a13797a473131b84445a24"
-  integrity sha512-aH8OeS3DXCDG2WP6yt/uS6Z9PstrA3Re930boIilxtMdF7Ht+pKJrq3OJnd7OCMPVO/y7UOAmtHNesVx6v4K2g==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/dom/-/dom-1.2.0.tgz#9e0dba73d31e4d2cb68da86a2166097d57c4b773"
+  integrity sha512-0b7kyM6bKBNqr90JruQCghwoR7zFfXJp1Ysuj2CG8Df1lGBq2/aKGzPnJteXgFHmViykdebAVTICvQsUk9ocHQ==
   dependencies:
-    "@editorjs/helpers" "^1.2.0"
+    "@editorjs/helpers" "^1.2.2"
 
 "@editorjs/editorjs@^2.27.0", "@editorjs/editorjs@^2.30.7", "@editorjs/editorjs@^2.31.0":
-  version "2.31.6"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.6.tgz#1468aeda08d2cfa2eab9412927cd118e6a472d2a"
-  integrity sha512-j2nxuFCD3DnoJDUD0hPO5tirpuQ6sWmmuHATl3EI7fG1it3Ml7jk0WJtu3E+TRLBd7zfNeJhDThbP3LnBEn2GA==
+  version "2.31.7"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.7.tgz#4ad3ee6978df6a323360fa7cb803c47187b0559d"
+  integrity sha512-te4wI1heK3B8s0pz1asyRPEmOglfkb9ex5nvvCN5OUVDLSnohTszI+yyLI73qOIuUWxenIvJYkOuGHzh/a47Hw==
   dependencies:
     "@editorjs/caret" "^1.0.1"
     codex-notifier "^1.1.2"
@@ -241,7 +241,7 @@
     "@codexteam/icons" "^0.0.5"
     "@editorjs/editorjs" "^2.30.7"
 
-"@editorjs/helpers@^1.2.0":
+"@editorjs/helpers@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@editorjs/helpers/-/helpers-1.2.2.tgz#b0b7312dd857fcc3b7c59b020f0938940885f0a5"
   integrity sha512-saDNARvY3xd70H4KE0eBq2hlV0Z7SpfI1/1iVqyVt5PqhlEOIR5rWJFH4c63BHTa6BfiR/+PMl1n7X/X7SlptQ==
