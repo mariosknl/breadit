@@ -1919,9 +1919,9 @@
     sqids "^0.3.0"
 
 "@upstash/redis@^1.21.0":
-  version "1.38.4"
-  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.38.4.tgz#50010c27c7afff07fea7e1174729d73932509d47"
-  integrity sha512-ZX69mKReun/yieyHYLoBg0eSiF6hjCQjd8zUKkJ5eCHehDV6P8S8oZOHxGSfkH1spfOhGZk0EGerBrfUsXow8g==
+  version "1.39.0"
+  resolved "https://registry.yarnpkg.com/@upstash/redis/-/redis-1.39.0.tgz#9fe8b02e6ccbe4f30115ea9da3f8a2ea4efe1ce8"
+  integrity sha512-VwkpYTdxSfjSulQS5h16NHtg/1UEheBfvez2AeGKinAujOoGXhXCcohQRzsQ/d2g/XzbjzTVGhG8Ds8uOI0Mxg==
   dependencies:
     uncrypto "^0.1.3"
 
