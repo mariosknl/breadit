@@ -211,16 +211,16 @@
     "@codexteam/icons" "^0.3.2"
 
 "@editorjs/dom@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@editorjs/dom/-/dom-1.1.0.tgz#2f2b3ccec615207135a13797a473131b84445a24"
-  integrity sha512-aH8OeS3DXCDG2WP6yt/uS6Z9PstrA3Re930boIilxtMdF7Ht+pKJrq3OJnd7OCMPVO/y7UOAmtHNesVx6v4K2g==
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/dom/-/dom-1.2.0.tgz#9e0dba73d31e4d2cb68da86a2166097d57c4b773"
+  integrity sha512-0b7kyM6bKBNqr90JruQCghwoR7zFfXJp1Ysuj2CG8Df1lGBq2/aKGzPnJteXgFHmViykdebAVTICvQsUk9ocHQ==
   dependencies:
-    "@editorjs/helpers" "^1.2.0"
+    "@editorjs/helpers" "^1.2.2"
 
 "@editorjs/editorjs@^2.27.0", "@editorjs/editorjs@^2.30.7", "@editorjs/editorjs@^2.31.0":
-  version "2.31.6"
-  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.6.tgz#1468aeda08d2cfa2eab9412927cd118e6a472d2a"
-  integrity sha512-j2nxuFCD3DnoJDUD0hPO5tirpuQ6sWmmuHATl3EI7fG1it3Ml7jk0WJtu3E+TRLBd7zfNeJhDThbP3LnBEn2GA==
+  version "2.31.7"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.31.7.tgz#4ad3ee6978df6a323360fa7cb803c47187b0559d"
+  integrity sha512-te4wI1heK3B8s0pz1asyRPEmOglfkb9ex5nvvCN5OUVDLSnohTszI+yyLI73qOIuUWxenIvJYkOuGHzh/a47Hw==
   dependencies:
     "@editorjs/caret" "^1.0.1"
     codex-notifier "^1.1.2"
@@ -241,12 +241,12 @@
     "@codexteam/icons" "^0.0.5"
     "@editorjs/editorjs" "^2.30.7"
 
-"@editorjs/helpers@^1.2.0":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@editorjs/helpers/-/helpers-1.2.2.tgz#b0b7312dd857fcc3b7c59b020f0938940885f0a5"
-  integrity sha512-saDNARvY3xd70H4KE0eBq2hlV0Z7SpfI1/1iVqyVt5PqhlEOIR5rWJFH4c63BHTa6BfiR/+PMl1n7X/X7SlptQ==
+"@editorjs/helpers@^1.2.2":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@editorjs/helpers/-/helpers-1.2.3.tgz#a301aa8fd5059df8a9a527f808e85da2fb4e4142"
+  integrity sha512-8NnWyZhVqfkaDSRTOpayd8oaGkppw00XvOvUIxPB6SZFd9LKgQo31o9v6eDK4XFsbTed8LQt2xmvZFFK9wNTSg==
   dependencies:
-    codex-tooltip "^1.0.6"
+    codex-tooltip "^1.1.0"
 
 "@editorjs/image@^2.8.1":
   version "2.10.3"
@@ -2521,10 +2521,10 @@ codex-notifier@^1.1.2:
   resolved "https://registry.yarnpkg.com/codex-notifier/-/codex-notifier-1.1.2.tgz#a733079185f4c927fa296f1d71eb8753fe080895"
   integrity sha512-DCp6xe/LGueJ1N5sXEwcBc3r3PyVkEEDNWCVigfvywAkeXcZMk9K41a31tkEFBW0Ptlwji6/JlAb49E3Yrxbtg==
 
-codex-tooltip@^1.0.5, codex-tooltip@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/codex-tooltip/-/codex-tooltip-1.0.6.tgz#ec4d63f0bfece000ec35a4aa7599af8d7005b399"
-  integrity sha512-3MVjBjeJFQ4jGlPuYHYV3Yj0wnl1l9ppB5zeIFJeyo8Ala3WlZYtLK5yZEoyND2fxIyVmqsZORCftDGX3vbSGQ==
+codex-tooltip@^1.0.5, codex-tooltip@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/codex-tooltip/-/codex-tooltip-1.1.0.tgz#bb237b3f8ef4db157cca081414afc075d0be8d0a"
+  integrity sha512-4AHzIapwZ979nzOPR9YYd8GU+xRAxrc5i5vV6+A6OZRRarLW2ToJZv63E/sYONeJSxUQ1Dyn+PtnVGA3OuoKhA==
 
 combined-stream@^1.0.8:
   version "1.0.8"
