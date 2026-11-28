@@ -4466,9 +4466,9 @@ lru.min@^1.0.0, lru.min@^1.1.0:
   integrity sha512-5J9ysMYUpYIg9RF2vJpy9SinEmSviFSe0GyPpCQ4L5QSkLAgeLXlTAOu2ZwWUU5m+0SBl6gUU1R1ZQB3aKypfA==
 
 lucide-react@^1.0.0:
-  version "1.61.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-1.61.0.tgz#e17337bb8b4729b285956fe43384173bf2f8f474"
-  integrity sha512-v2SQPPPNjnr+BlhL9Spuzmo5yR+hLkftfuE4E3jaxdNPgSH0hJKPcLJBP7yAta87jQNPsSERS59PJjCJ/CorBA==
+  version "1.83.0"
+  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-1.83.0.tgz#181478ce33079d44364a4e588e632e1d81ad703c"
+  integrity sha512-bYosQeQphbbNtdWT4DvY1/wlen2CcsZEQI/pMykcQ8twiu+T7m7cY7s8hOTJiMEAs3nUxCkeCxTe4ohczS5jhA==
 
 math-intrinsics@^1.1.0:
   version "1.1.0"
